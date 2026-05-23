@@ -1,0 +1,23 @@
+# MajesticOS .gitignore
+
+# Build artifacts
+build/
+*.o
+*.bin
+*.img
+*.iso
+*.elf
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Debug
+*.map
+*.sym
