@@ -12,6 +12,7 @@ QEMU    = qemu-system-i386
 # Flags
 CFLAGS  = -m32 -ffreestanding -fno-stack-protector -fno-builtin \
           -nostdlib -nostdinc -Wall -Wextra -O2 \
+          -fno-pie -fno-pic \
           -Iinclude
 
 LDFLAGS = -m elf_i386 -T tools/linker.ld --oformat binary
